@@ -25,16 +25,11 @@ h1 {
     font-size: 2.5rem;
 }
 
-p {
-    font-size: 1.25rem;
-}
+p { font-size: 1.25rem; }
 
-strong {
-    color: firebrick;
-}
+strong { color: firebrick; }
 
-.result { text-align: center;}
-
+.result-text { text-align: center; }
 
 textarea {
     /* all: unset; */

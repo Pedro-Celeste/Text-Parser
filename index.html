@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width initial-scale=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>Text Parser</title>
     <!-- Link to CSS Stylesheet -->
     <link rel="stylesheet" href="assets/css/styles.css"/>
@@ -10,9 +10,15 @@
   <body>
     <main>
       <h1>Text Parser</h1>
-      <p>Enter whatever text you want into the text area below to get some insights about it:</p>
-      <textarea>How many consonants do I have?</textarea>
-      <p class="result">There are <strong>10 consonants</strong> in your text!</p>
+      <p>
+        Enter whatever text you want into the text area below to get some 
+        insights about it:
+      </p>
+      <textarea id="input-field" maxlength="2000" placeholder="How many consonants do I have?"></textarea>
+      <p id="parser-result" class="result-text"></p>
+
+      <!-- Main script -->
+      <script src="assets/scripts/consonant-parser.js"></script>
     </main>
   </body>
 </html>
